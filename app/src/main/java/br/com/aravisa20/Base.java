@@ -1,8 +1,10 @@
 package br.com.aravisa20;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -15,6 +17,8 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+
+import static android.widget.Toast.LENGTH_LONG;
 
 public class Base extends AppCompatActivity {
 
@@ -30,8 +34,9 @@ public class Base extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+//                /*Intent novaRequisicao = new Intent(this, NovaRequisicao.class);
+////                startActivity(novaRequisicao);*/
+                Toast.makeText(Base.this, "Nova Requisição", LENGTH_
             }
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
