@@ -19,7 +19,7 @@ import br.com.aravisa20.R;
  */
 public class MinhasRequisicoes extends Fragment {
 
-    ListView listview = (ListView) findViewById(R.id.listview);
+
     String dados[]
             = { "Algoritmos", "Estrutura de Dados",
             "Linguagens", "Interview Corner",
@@ -60,8 +60,8 @@ public class MinhasRequisicoes extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        ListView listview = findViewById()
 
-        
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
