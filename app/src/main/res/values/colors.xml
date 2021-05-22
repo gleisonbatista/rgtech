@@ -3,4 +3,6 @@
     <color name="colorPrimary">#4CAF50</color>
     <color name="colorPrimaryDark">#009688</color>
     <color name="colorAccent">#4CAF50</color>
+    <color name="botao_primario">#25C379</color>
+    <color name="botao_secundario">#F75E68</color>
 </resources>

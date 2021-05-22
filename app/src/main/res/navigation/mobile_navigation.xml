@@ -6,14 +6,13 @@
     app:startDestination="@+id/nav_minhas_requisicoes">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="br.com.aravisa20.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
-
-    <fragment
         android:id="@+id/nav_minhas_requisicoes"
         android:name="br.com.aravisa20.ui.MinhasRequisicoes"
         android:label="@string/minhas_requisicoes"
         tools:layout="@layout/fragment_minhas_requisicoes" />
+    <fragment
+        android:id="@+id/nav_nova_requisicao"
+        android:name="br.com.aravisa20.ui.NovaRequisicao"
+        android:label="@string/nova_requisicao"
+        tools:layout="@layout/fragment_nova_requisicao" />
 </navigation>

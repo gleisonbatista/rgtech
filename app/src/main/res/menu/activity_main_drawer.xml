@@ -10,9 +10,9 @@
             android:icon="@drawable/ic_menu_manage"
             android:title="@string/minhas_requisicoes" />
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_nova_requisicao"
+            android:icon="@drawable/ic_menu_send"
+            android:title="@string/nova_requisicao" />
 
     </group>
 </menu>

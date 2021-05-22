@@ -18,6 +18,8 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import br.com.aravisa20.ui.NovaRequisicao;
+
 import static android.widget.Toast.LENGTH_LONG;
 
 public class Base extends AppCompatActivity {
@@ -34,9 +36,8 @@ public class Base extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                /*Intent novaRequisicao = new Intent(this, NovaRequisicao.class);
-////                startActivity(novaRequisicao);*/
-                Toast.makeText(Base.this, "Nova Requisição", LENGTH_
+                Intent novaRequisicao = new Intent(Base.this, NovaRequisicao.class);
+                startActivity(novaRequisicao);
             }
         });
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
@@ -44,7 +45,7 @@ public class Base extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_minhas_requisicoes)
+                R.id.nav_nova_requisicao, R.id.nav_minhas_requisicoes)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
