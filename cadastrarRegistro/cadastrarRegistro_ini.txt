@@ -1,0 +1,7 @@
+index.php
+Hackaton
+cadastrarRegistro
+NAO
+blank
+cadastrarRegistro
+LigMd5

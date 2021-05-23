@@ -1,0 +1,15 @@
+.css_usuario_id_label { }
+.css_usuario_id_line {text-align:left;}
+.css_usuario_id_obj {text-align:left;}
+.css_empresa_id_label {font-weight:bold;text-align:center;vertical-align:middle;}
+.css_empresa_id_line {text-align:center;vertical-align:middle;}
+.css_empresa_id_obj {text-align:center;}
+.css_valor_pago_label {font-weight:bold;text-align:center;vertical-align:middle;}
+.css_valor_pago_line {font-size:20px;color:#009900;font-weight:bold;text-align:center;vertical-align:middle;}
+.css_valor_pago_obj {font-size:30px;color:#009900;border-color:#009900;text-align:center;}
+.css_cpf_label {font-weight:bold;text-align:center;vertical-align:middle;}
+.css_cpf_line {font-size:20px;text-align:center;vertical-align:middle;}
+.css_cpf_obj {border-color:#009900;text-align:center;}
+.css_nome_cliente_label {font-weight:bold;text-align:center;vertical-align:middle;}
+.css_nome_cliente_line {font-size:20px;color:#3333CC;font-weight:bold;text-align:center;vertical-align:middle;}
+.css_nome_cliente_obj {text-align:center;}

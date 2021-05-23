@@ -1,0 +1,39 @@
+.css_id_label {font-weight:bold;}
+.css_id_line {text-align:left;}
+.css_id_obj {text-align:left;}
+.css_pref_usuario_id_label {font-weight:bold;}
+.css_pref_usuario_id_line {text-align:left;}
+.css_pref_usuario_id_obj {text-align:left;}
+.css_imagem_label {font-weight:bold;}
+.css_imagem_line { }
+.css_imagem_obj { }
+.css_tipo_registro_id_label {font-weight:bold;}
+.css_tipo_registro_id_line {text-align:left;}
+.css_tipo_registro_id_obj {text-align:left;}
+.css_cep_label {font-weight:bold;}
+.css_cep_line { }
+.css_cep_obj {border-color:#009900;}
+.css_endereco_label {font-weight:bold;}
+.css_endereco_line { }
+.css_endereco_obj {border-color:#009900;}
+.css_bairro_label {font-weight:bold;}
+.css_bairro_line { }
+.css_bairro_obj {border-color:#009900;}
+.css_complemento_label {font-weight:bold;}
+.css_complemento_line { }
+.css_complemento_obj {border-color:#009900;}
+.css_latitude_label {font-weight:bold;}
+.css_latitude_line { }
+.css_latitude_obj {border-color:#FF3300;}
+.css_longitude_label {font-weight:bold;}
+.css_longitude_line { }
+.css_longitude_obj {border-color:#FF3300;}
+.css_comentario_label {font-weight:bold;}
+.css_comentario_line { }
+.css_comentario_obj {border-color:#009900;}
+.css_data_insert_label {font-weight:bold;}
+.css_data_insert_line { }
+.css_data_insert_obj { }
+.css_data_update_label {font-weight:bold;}
+.css_data_update_line { }
+.css_data_update_obj { }

@@ -1,0 +1,20 @@
+.css_id_label {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_id_grid_line {vertical-align: top;text-align: right;}
+.css_status_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_status_grid_line {vertical-align: top;text-align: right;}
+.css_pref_usuario_id_label {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_pref_usuario_id_grid_line {vertical-align: top;text-align: right;}
+.css_tipo_registro_id_label {text-align:right;vertical-align:middle;justify-content:right;font-weight:bold;}
+.css_tipo_registro_id_grid_line {vertical-align: top;text-align: right;}
+.css_endereco_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_endereco_grid_line {vertical-align: top;text-align: right;}
+.css_bairro_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_bairro_grid_line {vertical-align: top;text-align: right;}
+.css_data_insert_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_data_insert_grid_line {vertical-align: top;text-align: center;}
+.css_data_update_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_data_update_grid_line {vertical-align: top;text-align: center;}
+.css_data_resolucao_label {text-align:center;vertical-align:middle;justify-content:center;font-weight:bold;}
+.css_data_resolucao_grid_line {vertical-align: top;text-align: center;}
+.css_imagem_label {text-align:left;vertical-align:middle;justify-content:left;font-weight:bold;}
+.css_imagem_grid_line {vertical-align: top;text-align: right;}

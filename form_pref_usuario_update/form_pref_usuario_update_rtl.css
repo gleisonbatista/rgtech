@@ -1,0 +1,33 @@
+.css_nome_label {font-weight:bold;}
+.css_nome_line { }
+.css_nome_obj {border-color:#009900;}
+.css_cpf_cnpj_label {font-weight:bold;}
+.css_cpf_cnpj_line {font-weight:bold;}
+.css_cpf_cnpj_obj {background-color:#009900;border-color:#009900;}
+.css_rg_label {font-weight:bold;}
+.css_rg_line { }
+.css_rg_obj {border-color:#009900;}
+.css_orgao_emissor_label {font-weight:bold;}
+.css_orgao_emissor_line { }
+.css_orgao_emissor_obj {border-color:#009900;}
+.css_email_label {font-weight:bold;}
+.css_email_line { }
+.css_email_obj {border-color:#009900;}
+.css_telefone_label {font-weight:bold;}
+.css_telefone_line { }
+.css_telefone_obj {border-color:#009900;}
+.css_cep_label {font-weight:bold;}
+.css_cep_line { }
+.css_cep_obj {border-color:#009900;}
+.css_endereco_label {font-weight:bold;}
+.css_endereco_line { }
+.css_endereco_obj {border-color:#009900;}
+.css_numero_label {font-weight:bold;}
+.css_numero_line { }
+.css_numero_obj {border-color:#009900;}
+.css_bairro_label {font-weight:bold;}
+.css_bairro_line { }
+.css_bairro_obj {border-color:#009900;}
+.css_priv_admin_label { }
+.css_priv_admin_line { }
+.css_priv_admin_obj { }

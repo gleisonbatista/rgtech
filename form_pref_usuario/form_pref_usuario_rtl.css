@@ -1,0 +1,36 @@
+.css_nome_label {font-weight:bold;}
+.css_nome_line { }
+.css_nome_obj {border-color:#009900;}
+.css_cpf_cnpj_label {font-weight:bold;}
+.css_cpf_cnpj_line { }
+.css_cpf_cnpj_obj {border-color:#009900;}
+.css_rg_label {font-weight:bold;}
+.css_rg_line { }
+.css_rg_obj {border-color:#009900;}
+.css_orgao_emissor_label {font-weight:bold;}
+.css_orgao_emissor_line { }
+.css_orgao_emissor_obj {border-color:#009900;}
+.css_email_label {font-weight:bold;}
+.css_email_line { }
+.css_email_obj {border-color:#009900;}
+.css_telefone_label {font-weight:bold;}
+.css_telefone_line { }
+.css_telefone_obj {border-color:#009900;}
+.css_login_label {font-weight:bold;}
+.css_login_line { }
+.css_login_obj {border-color:#009900;}
+.css_senha_label {font-weight:bold;}
+.css_senha_line { }
+.css_senha_obj {border-color:#009900;}
+.css_priv_admin_label { }
+.css_priv_admin_line { }
+.css_priv_admin_obj { }
+.css_tipo_cadastro_label { }
+.css_tipo_cadastro_line { }
+.css_tipo_cadastro_obj { }
+.css_termo_label {font-weight:bold;}
+.css_termo_line {color:#FF0000;font-weight:bold;}
+.css_termo_obj { }
+.css_titulo_label {font-size:30px;color:#0066FF;font-weight:bold;text-align:center;vertical-align:middle;}
+.css_titulo_line {text-align:center;vertical-align:middle;}
+.css_titulo_obj {text-align:center;}
