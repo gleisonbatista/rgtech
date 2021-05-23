@@ -1,0 +1,2 @@
+rootProject.name = "aracash"
+include ':app'
