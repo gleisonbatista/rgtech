@@ -54,19 +54,21 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/btnEmpresa"
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
+                android:onClick="abrirEmpresa"
                 android:text="Ver"
                 android:textSize="10sp"
                 app:backgroundTint="@color/fundo"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/textView11" />
+                app:layout_constraintTop_toBottomOf="@+id/textView11"
+                app:layout_constraintVertical_bias="0.0" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -170,6 +172,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginBottom="8dp"
+                android:onClick="abrirPagamento"
                 android:text="Pagar"
                 android:textSize="10sp"
                 app:backgroundTint="@color/fundo"

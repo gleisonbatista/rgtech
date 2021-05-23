@@ -30,4 +30,5 @@ public class LoginActivity extends AppCompatActivity {
         Intent i = new Intent(getApplicationContext(), CadastrarUsuarioActivity.class);
         startActivity(i);
     }
+
 }
