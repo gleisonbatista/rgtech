@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Aracash">
-        <activity android:name=".activitys.CadastrarUsuarioActivity"></activity>
+        <activity android:name=".activitys.EmpresaActivity"></activity>
+        <activity android:name=".activitys.CadastrarUsuarioActivity" />
         <activity android:name=".activitys.RecuperarSenhaActivity" />
         <activity android:name=".activitys.MainActivity" />
         <activity android:name=".activitys.LoginActivity">
