@@ -10,5 +10,12 @@
     <string name="logo_aravisa">Logo ArAvisa</string>
     <string name="minhas_requisicoes">Minhas Requisições</string>
     <string name="nova_requisicao">Nova Requisicao</string>
+    <string name="descricao_problema">Descreva a Situação</string>
+    <string name="situacao">Situação</string>
+    <string name="localizacao">Localização</string>
+    <string name="localizacao_atual">Localização Atual</string>
+    <string name="endereco_localizacao">Descreva o endereço/localização</string>
+
+
 
 </resources>

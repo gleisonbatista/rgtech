@@ -7,10 +7,78 @@
     android:layout_height="match_parent"
     tools:context=".Requisicao">
 
-  <ListView xmlns:android="http://schemas.android.com/apk/res/android"
-      android:id="@+id/lvrequisicao"
+
+  <Button
+      android:id="@+id/btnTirarFoto"
+      style="@style/Widget.AppCompat.Button.Colored"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      />
+      android:text="Tirar Foto"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
 
-  </androidx.constraintlayout.widget.ConstraintLayout>
+  <ImageView
+      android:id="@+id/foto_registrada"
+      android:layout_width="337dp"
+      android:layout_height="471dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginTop="32dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginRight="16dp"
+      app:layout_constraintBottom_toTopOf="@+id/btnTirarFoto"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editEndereco"
+      tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+  <EditText
+      android:id="@+id/editProblema"
+      android:layout_width="match_parent"
+      android:layout_height="100dp"
+      android:hint="@string/descricao_problema"
+      android:inputType="text|textMultiLine"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/txtsituacao" />
+
+  <EditText
+      android:id="@+id/editEndereco"
+      android:layout_width="286dp"
+      android:layout_height="45dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginLeft="8dp"
+      android:layout_marginTop="16dp"
+      android:hint="@string/endereco_localizacao"
+      app:layout_constraintEnd_toStartOf="@+id/btnLocalizacaoAtual"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/localizacao" />
+
+  <TextView
+      android:id="@+id/txtsituacao"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="8dp"
+      android:text="@string/situacao"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/localizacao"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:text="@string/localizacao"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editProblema" />
+
+  <Button
+      android:id="@+id/btnLocalizacaoAtual"
+      android:layout_width="122dp"
+      android:layout_height="62dp"
+      android:text="@string/localizacao_atual"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/localizacao" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
