@@ -9,28 +9,41 @@
 
 
   <Button
-      android:id="@+id/btnTirarFoto"
+      android:id="@+id/btnEnviar"
       style="@style/Widget.AppCompat.Button.Colored"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Tirar Foto"
+      android:onClick="alerta()"
+      android:text="Enviar Requisição"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent" />
 
+  <Button
+      android:id="@+id/btnTirarFoto"
+      style="@style/Widget.AppCompat.Button.Colored"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="16dp"
+      android:text="Registrar Imagem"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/editEndereco" />
+
   <ImageView
       android:id="@+id/foto_registrada"
-      android:layout_width="337dp"
-      android:layout_height="471dp"
+      android:layout_width="290dp"
+      android:layout_height="293dp"
       android:layout_marginStart="16dp"
       android:layout_marginLeft="16dp"
-      android:layout_marginTop="32dp"
       android:layout_marginEnd="16dp"
       android:layout_marginRight="16dp"
-      app:layout_constraintBottom_toTopOf="@+id/btnTirarFoto"
+      app:layout_constraintBottom_toTopOf="@+id/btnEnviar"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.493"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/editEndereco"
+      app:layout_constraintTop_toBottomOf="@+id/btnTirarFoto"
       tools:srcCompat="@tools:sample/backgrounds/scenic" />
 
   <EditText
@@ -59,8 +72,12 @@
       android:id="@+id/txtsituacao"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginLeft="8dp"
       android:layout_marginTop="8dp"
       android:text="@string/situacao"
+      android:textSize="18sp"
+      android:textStyle="bold"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
 
@@ -68,8 +85,12 @@
       android:id="@+id/localizacao"
       android:layout_width="0dp"
       android:layout_height="wrap_content"
+      android:layout_marginStart="8dp"
+      android:layout_marginLeft="8dp"
       android:layout_marginTop="16dp"
       android:text="@string/localizacao"
+      android:textSize="18sp"
+      android:textStyle="bold"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/editProblema" />
 
@@ -77,6 +98,7 @@
       android:id="@+id/btnLocalizacaoAtual"
       android:layout_width="122dp"
       android:layout_height="62dp"
+      style="@style/Widget.AppCompat.Button.Colored"
       android:text="@string/localizacao_atual"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/localizacao" />

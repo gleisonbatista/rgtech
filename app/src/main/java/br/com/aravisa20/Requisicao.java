@@ -2,8 +2,10 @@ package br.com.aravisa20;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Build;
@@ -65,5 +67,15 @@ public class Requisicao extends AppCompatActivity {
             default:break;
         }
         return true;
+    }
+    public void alerta(){
+        AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
+        builder.setMessage("Parabéns")
+                .setPositiveButton(R.string.app_name, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        Intent novo = new Intent(getApplicationContext(), Requisicao.class);
+                        startActivity(novo);
+                    }
+                });
     }
 }
