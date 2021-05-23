@@ -14,7 +14,7 @@ import br.com.aracash.R;
 
 public class EmpresaActivity extends AppCompatActivity {
     private ListView listaEmpresa;
-    private String[] lista = {"Supermercado", "Farmacia"};
+    private String[] lista = {"Supermercado", "Farmacia", "Supermercado 2","Supermercado 3", "Farmacia 2", "Farmacia3", "Padaria", "Convêniencia"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -34,7 +34,6 @@ public class RecuperarSenhaActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
         msg.show();
     }
 }

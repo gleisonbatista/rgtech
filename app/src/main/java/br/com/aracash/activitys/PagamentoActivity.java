@@ -18,8 +18,7 @@ public class PagamentoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_pagamento);
     }
     public void alertaPagamento(View view){
-        alertaCampos("Pagamento Realizado com Sucesso");
-
+        alertaCampos("Pagamento Realizado com Sucesso.");
     }
     public void alertaCampos(String mensagem) {
         AlertDialog.Builder msg = new AlertDialog.Builder(this);
